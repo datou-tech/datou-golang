@@ -13,7 +13,10 @@ For technologists that may not be coding in GoLang on a daily basis, I want to c
 
 | Command | Description | 
 | -- | -- | 
-| `go main` | Run the main function |
+| `go build main.go` | Build as a binary |
+| `./main` | Run the main function as a binary  |
+| `go run main.go` | Run the main function from code |
+| `go test *.go` | Run the tests |
 
 #### VSCode
 
