@@ -90,6 +90,10 @@ func explainVariables() {
 
 	fmt.Println()
 
+	fmt.Println("nil is the zero value in Go representing an uninitialized value")
+
+	fmt.Println()
+
 }
 
 func explainStrings() {
@@ -198,9 +202,9 @@ func explainStructs() {
 	fmt.Println()
 
 	fmt.Println("In this example, a new type Person struct is used with properties name (string) and age (int)")
-	fmt.Println("person{\"Bob\", 10)", person{"Bob", 10})
-	fmt.Println("person{name:\"George\")", person{name: "George"})
-	fmt.Println("p := newPerson(\"Joe\", 30)", newPerson("Joe", 30))
+	fmt.Println("person{\"Bob\", 10} = ", person{"Bob", 10})
+	fmt.Println("person{name:\"George\"} = ", person{name: "George"})
+	fmt.Println("p := newPerson(\"Joe\", 30) = ", newPerson("Joe", 30))
 
 	fmt.Println()
 }
