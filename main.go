@@ -15,6 +15,7 @@ func main() {
 	fmt.Println("")
 
 	// Basics
+	explainImports()
 	explainFunctions()
 	explainVariables()
 	explainStrings()
@@ -35,6 +36,15 @@ func main() {
 	// Advanced
 	explainChannels()
 
+}
+
+func explainImports() {
+	fmt.Println("=== IMPORTS ===")
+	fmt.Println("")
+
+	fmt.Println("You can alias an import: 'esc example.com/someLongPackageName' and reference esc")
+	fmt.Println("When running `go get`, packages are installed in $GOPATH/pkg")
+	fmt.Println("")
 }
 
 func explainFunctions() {
